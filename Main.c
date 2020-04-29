@@ -17,7 +17,7 @@ int main () {
 
 
     //FUNÇÃO PARA CARREGAR O ARQUIVO
-    char palavras[50];
+    char palavras[5000];
     FILE *arq;
  
     arq = fopen(nomeArquivo, "r");

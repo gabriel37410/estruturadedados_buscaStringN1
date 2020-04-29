@@ -13,7 +13,8 @@ void forcaBruta(char palavras[], char frase[]){
         k=i;  cont=1;
         for(j=0 ; j < tFrase; j++) { //Define primeira letra da string
             if ((palavras[k]==frase[j])  && (cont != tFrase)){ //Compara primeira letra da frase com a posição atual da string
-            cont++;k++; //Se igual soma o contador para conclusão e a posição da string (k)
+                cont++;
+                k++; //Se igual soma o contador para conclusão e a posição da string (k)
             }//Ao retornar para o for soma a posição da frase (j)
         }//Ao retornar para o primeiro for soma a posição da string (i)
             if (cont == tFrase){ //Se o tamanho do contador de conclusão somar ate chegar ao tamanho da frase quer dizer que a string foi encontrada.
